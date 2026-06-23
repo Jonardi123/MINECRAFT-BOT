@@ -342,3 +342,6 @@ Mineflayer bots are not real humans. This teammate is careful and useful, but it
 Mining is intentionally conservative. The bot avoids nearby lava or water and will stop rather than dig into obvious danger. For best results, set home near a safe mine entrance and ask for modest amounts first.
 
 For rare ores like diamonds, use `!prospect diamond 3 250` instead of `!goMine diamond 3`. `!goMine` checks reachable exposed blocks nearby; `!prospect` keeps tunneling and checking newly exposed blocks. See `MINING_METHODS.md` for the full mining command guide.
+
+ALSO:
+1. I have no idea why the folder is so small, i also removed some things cuz github wouln't let me publish it cuz the file is too large, hope u like it!!
