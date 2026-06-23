@@ -1,0 +1,4003 @@
+{
+  "home": {
+    "x": 355,
+    "y": 49,
+    "z": 183
+  },
+  "miningArea": null,
+  "chests": {
+    "storage": {
+      "x": -5,
+      "y": 64,
+      "z": -42
+    },
+    "farm": null,
+    "botStorage": {
+      "x": 22,
+      "y": 64,
+      "z": -4
+    }
+  },
+  "players": {
+    "jonn1": {
+      "lastSeen": "2026-06-18T15:51:05.782Z",
+      "position": {
+        "x": 26,
+        "y": -50,
+        "z": -31
+      }
+    },
+    "CodexTester": {
+      "lastSeen": "2026-05-28T14:29:04.207Z",
+      "position": {
+        "x": 13,
+        "y": 70,
+        "z": 2
+      }
+    }
+  },
+  "notes": [],
+  "ai": {
+    "enabled": true,
+    "paused": true,
+    "currentGoal": "compete with itzrealme: survive like a real player, keep food stable, craft tools, gear up, defend from mobs, and keep progressing without waiting for commands",
+    "shortTermTask": null,
+    "targets": {},
+    "progress": {},
+    "failedActions": [],
+    "recentDecisions": [],
+    "retryCounts": {
+      "llm_unavailable:": 0,
+      "idle:": 0,
+      "flee:": 0,
+      "gather_food:": 2
+    },
+    "lessons": [
+      {
+        "at": "2026-05-27T20:58:15.223Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-27T20:58:32.776Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-27T20:58:42.223Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-27T20:59:05.478Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:07:27.096Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:27:22.748Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:29:15.050Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:31:41.902Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:34:11.189Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:44:44.091Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:45:15.689Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:45:36.137Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:45:46.539Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:46:01.789Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:47:24.639Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T13:54:14.940Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:04:02.640Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:08:02.891Z",
+        "type": "death",
+        "cause": "drowning",
+        "lesson": "Died from water risk. Avoid long underwater paths and surface sooner."
+      },
+      {
+        "at": "2026-05-28T14:11:35.610Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:16:17.740Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:24:14.941Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:24:46.888Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:27:53.338Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:28:21.441Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:28:39.243Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:30:54.339Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:34:26.048Z",
+        "type": "death",
+        "cause": "unknown",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T14:52:20.490Z",
+        "type": "death",
+        "cause": "starvation",
+        "lesson": "Death is feedback. Retry the objective instead of giving up."
+      },
+      {
+        "at": "2026-05-28T15:01:39.070Z",
+        "type": "server_rule",
+        "lesson": "Server has keepInventory. Do not repeatedly flee or cancel objectives only because health is low. Prefer eat, fight, continue, return_home, or respawn/retry."
+      },
+      {
+        "at": "2026-06-18T15:44:39.088Z",
+        "type": "death",
+        "cause": "fall",
+        "lesson": "Died from fall risk. Prefer staircase mining and avoid unsafe drops."
+      }
+    ],
+    "autopilot": {
+      "mode": "running",
+      "stage": "agent_core",
+      "activeSkill": null,
+      "failedSkills": {
+        "agent_step": 0,
+        "get_logs": 0,
+        "mine_stone": 0
+      },
+      "resourcesWanted": {},
+      "knownWorksites": {},
+      "knownTrees": [],
+      "knownMineEntrances": [],
+      "startedAt": "2026-05-27T18:25:37.372Z",
+      "lastProgressAt": "2026-05-27T12:27:08.447Z",
+      "lastPosition": {
+        "x": 10,
+        "y": 61,
+        "z": -3
+      },
+      "lastFailure": {
+        "at": "2026-05-26T20:01:32.247Z",
+        "skill": "agent_step",
+        "error": "no progress and no movement"
+      },
+      "stuckRecoveries": 30,
+      "lastRecoveryAt": "2026-05-26T20:01:32.248Z",
+      "lastSkill": "agent_step",
+      "lastResult": "progress"
+    },
+    "rewards": {
+      "scores": {
+        "repeated_failed_action": -2860,
+        "getting_stuck": -540,
+        "idling": -6,
+        "failed_to_eat_while_hungry": -5640,
+        "dying": -4850,
+        "taking_damage": -6318,
+        "completing_objectives": 868,
+        "fighting": 2572,
+        "gathering_food": 16,
+        "eating_food": 430,
+        "fleeing": 222
+      },
+      "priorities": {
+        "foodPriority": 100,
+        "combatPreparedness": 40,
+        "miningPriority": 50,
+        "safetyPriority": 100,
+        "avoidStuckBehavior": 100
+      },
+      "history": [
+        {
+          "at": "2026-06-18T14:20:10.786Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 16.50862693786621,
+            "newHealth": 13.346274375915527,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:14.384Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.837646484375,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:16.935Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.28586196899414,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:17.284Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.28586196899414,
+            "newHealth": 19.179994583129883,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:17.433Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.28586196899414,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:17.634Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.28586196899414,
+            "newHealth": 19.179994583129883,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:17.984Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.167030334472656,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:18.484Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.28586196899414,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:18.684Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.28586196899414,
+            "newHealth": 19.179994583129883,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:19.035Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.679994583129883,
+            "newHealth": 18.965856552124023,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:19.235Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.965856552124023,
+            "newHealth": 19.820449829101562,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:19.585Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.024742126464844,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:19.785Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.024742126464844,
+            "newHealth": 18.879335403442383,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:20.135Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.379335403442383,
+            "newHealth": 18.24292755126953,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:23.384Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 16.748571395874023,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:24.735Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 15.748571395874023,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:25.385Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 16.415237426757812,
+            "newHealth": 13.163808822631836,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:26.285Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 15.330475807189941,
+            "newHealth": 13.086783409118652,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:26.835Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 15.586783409118652,
+            "newHealth": 14.61152458190918,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:29.084Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.44485855102539,
+            "newHealth": 16.326419830322266,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:29.584Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.659753799438477,
+            "newHealth": 17.684494018554688,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:30.834Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 16.349821090698242,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:20:31.884Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.183155059814453,
+            "newHealth": 18.0467472076416,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:27:14.541Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.79199981689453,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:27:18.836Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.79199981689453,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:27:27.685Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.68199920654297,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:27:29.385Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.878795623779297,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:27:29.586Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.94827651977539,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:29:19.435Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.878795623779297,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:29:39.883Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 14,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:29:43.536Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 6,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T14:33:04.435Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.824647903442383,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:04.735Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.20270538330078,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:07.184Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:08.386Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.921825408935547,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:12.534Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:13.134Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.88800048828125,
+            "newHealth": 15.336000442504883,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:27.386Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.512001037597656,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:29.034Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.552000045776367,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:32.936Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:33.634Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.88800048828125,
+            "newHealth": 16.336000442504883,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:34.485Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.336000442504883,
+            "newHealth": 18.581148147583008,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:35.785Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.79199981689453,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:49.735Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.661802291870117,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:50.234Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.64226531982422,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:51.184Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.00863265991211,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:39:52.084Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.00863265991211,
+            "newHealth": 18.253780364990234,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:42:24.984Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:42:45.735Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:42:46.586Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.88800048828125,
+            "newHealth": 19.133148193359375,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:42:47.085Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.544309616088867,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:42:47.785Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.466894149780273,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:18.734Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.466894149780273,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:19.334Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.544309616088867,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:19.685Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.544309616088867,
+            "newHealth": 19.477914810180664,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:19.834Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.544309616088867,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:20.335Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.544309616088867,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:35.584Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:36.084Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.88800048828125,
+            "newHealth": 17.365604400634766,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:37.085Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.20270538330078,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:37.737Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:38.335Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.88800048828125,
+            "newHealth": 17.7760009765625,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:38.934Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.7760009765625,
+            "newHealth": 16.66400146484375,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:39.484Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.66400146484375,
+            "newHealth": 16.86670684814453,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:40.033Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 17.86670684814453,
+            "newHealth": 16.069412231445312,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:40.534Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 18.069412231445312,
+            "newHealth": 16.547016143798828,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:41.034Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 17.547016143798828,
+            "newHealth": 16.024620056152344,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:41.884Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 19.024620056152344,
+            "newHealth": 17.740856170654297,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:43:45.385Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 17.88800048828125,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:44:11.582Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:44:39.084Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 0,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:44:39.089Z",
+          "behavior": "dying",
+          "points": -50,
+          "details": {
+            "at": "2026-06-18T15:44:39.089Z",
+            "goal": "compete with itzrealme: survive like a real player, keep food stable, craft tools, gear up, defend from mobs, and keep p",
+            "skill": null,
+            "health": 0,
+            "food": 20,
+            "cause": "fall",
+            "position": {
+              "x": 205,
+              "y": -60,
+              "z": 18
+            }
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:10.787Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.512001037597656,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:14.487Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.742555618286133,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:15.587Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.603893280029297,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:17.786Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.746349334716797,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:21.235Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.3571720123291,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:50:25.136Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.742555618286133,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:51:36.486Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 18.512001037597656,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        },
+        {
+          "at": "2026-06-18T15:51:38.135Z",
+          "behavior": "taking_damage",
+          "points": -6,
+          "details": {
+            "oldHealth": 20,
+            "newHealth": 19.736858367919922,
+            "food": 20,
+            "likelyCause": "damage"
+          }
+        }
+      ],
+      "lessons": [
+        {
+          "at": "2026-05-27T20:57:54.974Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-27T20:58:15.223Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-27T20:58:32.776Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-27T20:58:42.224Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-27T20:59:05.479Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:07:27.097Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-05-28T13:27:22.749Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-05-28T13:29:15.051Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-05-28T13:31:41.903Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:34:11.190Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-05-28T13:44:44.092Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:45:15.690Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:45:36.138Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:45:46.539Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:46:01.790Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:47:24.640Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T13:54:14.941Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:04:02.641Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:08:02.892Z",
+          "type": "death",
+          "cause": "drowning",
+          "lesson": "Avoid water paths and surface earlier."
+        },
+        {
+          "at": "2026-05-28T14:11:35.611Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:16:17.741Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:24:14.943Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-05-28T14:24:46.889Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:27:53.339Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:28:21.442Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:28:39.244Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:30:54.340Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:34:26.048Z",
+          "type": "death",
+          "cause": "unknown",
+          "lesson": "Retry with a safer strategy and avoid repeating the same failed action."
+        },
+        {
+          "at": "2026-05-28T14:52:20.492Z",
+          "type": "death",
+          "cause": "starvation",
+          "lesson": "Get food before mining or combat next run."
+        },
+        {
+          "at": "2026-06-18T15:44:39.089Z",
+          "type": "death",
+          "cause": "fall",
+          "lesson": "Use staircase mining and avoid cliffs or unsafe drops."
+        }
+      ],
+      "failurePatterns": {
+        "craft_starter_tools:no measurable progress": 33,
+        "agent_step:no progress and no movement": 30,
+        "idle:repeated action loop": 4,
+        "secure_food:Task cancelled": 76,
+        "gather_food:repeated action loop": 2,
+        "secure_food:missing food": 141
+      },
+      "movement": {
+        "stuckEvents": 43,
+        "jumpAttempts": 30,
+        "failedJumps": 6,
+        "lastPosition": {
+          "x": 37,
+          "y": 64,
+          "z": 8
+        },
+        "lastMovedAt": "2026-05-28T14:18:21.673Z"
+      }
+    },
+    "curriculum": {
+      "milestones": {
+        "logs": true,
+        "crafting_table": true,
+        "starter_tools": false,
+        "stone_tools": false,
+        "food_stable": false,
+        "coal": false,
+        "iron": false,
+        "iron_kit": false,
+        "armor": false,
+        "diamonds": false,
+        "nether_ready": false
+      },
+      "completed": [
+        {
+          "at": "2026-05-27T12:01:17.780Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:19.922Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:22.225Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:24.638Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:27.940Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:30.092Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:32.247Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:34.445Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:36.579Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:38.787Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:41.312Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:43.443Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:45.637Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:52.088Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:54.414Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:56.401Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:01:58.402Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:00.273Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:14.451Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:22.068Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:24.208Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:26.057Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:28.272Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:30.123Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:31.991Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:47.193Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:50.682Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:02:53.006Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:00.104Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:01.085Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:08.076Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:09.065Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:16.055Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:17.033Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:24.021Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:31.675Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:45.324Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:03:52.965Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:06.152Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:14.816Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:16.724Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:17.939Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:20.043Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:21.239Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:23.358Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:24.540Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:26.632Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:27.328Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:30.571Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:34.113Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:37.613Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:41.105Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:44.423Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:47.665Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:51.008Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:54.290Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:04:57.291Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:00.856Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:04.347Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:07.665Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:10.918Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:18.012Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:21.330Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:27.907Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:31.212Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:34.717Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:38.014Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:41.277Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:45.609Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:46.874Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:49.150Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:50.642Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:05:53.442Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:06:58.090Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:07:10.241Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:07:43.548Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:08:00.339Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:12:24.975Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:12:35.784Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        },
+        {
+          "at": "2026-05-27T12:27:08.446Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": true,
+          "reason": "verified"
+        }
+      ],
+      "failed": [
+        {
+          "at": "2026-05-27T12:07:24.292Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:24.942Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:26.338Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:26.977Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:28.353Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:29.008Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:30.400Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:31.031Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:32.383Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:33.039Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:34.165Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:35.201Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:36.075Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:37.190Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:38.114Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:39.107Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:40.121Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:40.234Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:41.507Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:42.167Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:44.187Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:45.569Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:46.186Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:47.577Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:48.223Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:49.600Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:50.244Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:51.639Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:52.260Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:53.631Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:54.273Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:55.394Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:56.419Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:57.310Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:07:58.463Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:07:59.340Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:00.573Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:01.339Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:01.434Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:02.359Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:02.576Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:03.368Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:03.449Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:04.367Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:04.616Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:05.375Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:06.402Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:06.620Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:07.410Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:07.487Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:08.423Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:08.648Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:09.425Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:09.521Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:10.445Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:10.669Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:11.456Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:11.549Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:08:12.472Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:12.707Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:08:13.475Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:12:16.790Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:12:45.237Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:12:52.000Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:12:53.871Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "missing food"
+        },
+        {
+          "at": "2026-05-27T12:27:01.320Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:27:18.887Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T12:27:26.888Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:23:55.338Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:04.268Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:14.616Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:23.632Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:32.548Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:45.076Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:24:54.007Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:25:02.939Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:25:11.852Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:25:20.795Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:25:29.696Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        },
+        {
+          "at": "2026-05-27T18:25:38.156Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        }
+      ],
+      "blocked": {
+        "starter_tools": {
+          "at": "2026-05-26T20:01:33.478Z",
+          "objective": "craft_starter_tools",
+          "milestone": "starter_tools",
+          "success": false,
+          "reason": "no measurable progress"
+        },
+        "food_stable": {
+          "at": "2026-05-27T18:25:38.156Z",
+          "objective": "secure_food",
+          "milestone": "food_stable",
+          "success": false,
+          "reason": "Task cancelled"
+        }
+      },
+      "currentObjective": {
+        "skill": "secure_food",
+        "milestone": "food_stable",
+        "reason": "Food is required before long tasks."
+      },
+      "lastChosenAt": "2026-05-27T18:25:37.592Z"
+    },
+    "pauseReason": "Manual command !fight",
+    "agent": {
+      "mode": "running",
+      "currentObjective": {
+        "skill": "secure_food",
+        "milestone": "food_stable",
+        "reason": "Food is required before long tasks."
+      },
+      "currentSkill": null,
+      "lastVerdict": {
+        "success": false,
+        "reason": "Task cancelled"
+      },
+      "lastStartedAt": "2026-05-27T18:25:37.592Z",
+      "lastFinishedAt": "2026-05-27T18:25:38.157Z"
+    },
+    "director": {
+      "mode": "stopped",
+      "currentObjective": "secure_food",
+      "currentStage": null,
+      "currentStep": null,
+      "stepAttempts": {
+        "craft_tools": 34,
+        "secure_food": 309
+      },
+      "lastProgressAt": "2026-05-27T12:27:08.443Z",
+      "blockedReason": "Task cancelled",
+      "resumeAfterInterrupt": null,
+      "stepStartedAt": "2026-05-27T18:25:37.592Z",
+      "lastStep": "secure_food",
+      "lastStepResult": {
+        "madeProgress": true,
+        "gainedItems": {},
+        "moved": 4.1,
+        "inventoryChanged": false,
+        "equipmentChanged": false,
+        "foodImproved": false
+      },
+      "blockedStep": "secure_food",
+      "blockedAt": "2026-05-27T18:25:38.156Z"
+    },
+    "progressTracker": {
+      "events": [
+        {
+          "at": "2026-05-27T12:08:02.573Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:02.576Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:03.366Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:03.368Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:03.447Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:03.449Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:04.365Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:04.367Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:04.614Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:04.616Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:05.372Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:05.375Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:06.399Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:06.402Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:06.618Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:06.620Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:07.407Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:07.410Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:07.485Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:07.487Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:08.421Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:08.423Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:08.646Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:08.648Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:09.422Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:09.425Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:09.519Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:09.521Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:10.443Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:10.445Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:10.668Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:10.669Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:11.454Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:11.457Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:11.547Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:11.549Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:12.469Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:12.472Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:12.706Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:12.707Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:13.472Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:08:13.475Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:16.786Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:16.790Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:45.235Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:45.237Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:51.998Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:52.000Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:53.868Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "no measurable progress"
+          }
+        },
+        {
+          "at": "2026-05-27T12:12:53.871Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "missing food"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:01.317Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:01.320Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:18.882Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:18.887Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:26.885Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T12:27:26.888Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:23:55.335Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:23:55.338Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:04.266Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:04.268Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:14.614Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:14.616Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:23.629Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:23.632Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:32.546Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:32.548Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:45.073Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:45.076Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:54.005Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:24:54.007Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:02.937Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:02.939Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:11.850Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:11.852Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:20.793Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:20.795Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:29.693Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:29.696Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:38.154Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        },
+        {
+          "at": "2026-05-27T18:25:38.156Z",
+          "type": "blocked",
+          "details": {
+            "step": "secure_food",
+            "reason": "Task cancelled"
+          }
+        }
+      ],
+      "pathTimeouts": [],
+      "blockTargetFailures": [],
+      "missingIngredients": [],
+      "damageSourceGuesses": [],
+      "stuckPositions": []
+    },
+    "deaths": [
+      {
+        "at": "2026-05-28T13:07:27.096Z",
+        "position": {
+          "x": -12,
+          "y": 64,
+          "z": 3
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-05-28T13:27:22.748Z",
+        "position": {
+          "x": 44,
+          "y": 63,
+          "z": -22
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-05-28T13:29:15.050Z",
+        "position": {
+          "x": 21,
+          "y": 65,
+          "z": 15
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-05-28T13:31:41.902Z",
+        "position": {
+          "x": 16,
+          "y": 60,
+          "z": 7
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:34:11.189Z",
+        "position": {
+          "x": 21,
+          "y": 64,
+          "z": 15
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-05-28T13:44:44.091Z",
+        "position": {
+          "x": -2,
+          "y": 64,
+          "z": -56
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:45:15.689Z",
+        "position": {
+          "x": 20,
+          "y": 71,
+          "z": -1
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:45:36.137Z",
+        "position": {
+          "x": 12,
+          "y": 63,
+          "z": 2
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:45:46.539Z",
+        "position": {
+          "x": 16,
+          "y": 60,
+          "z": 8
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:46:01.789Z",
+        "position": {
+          "x": 17,
+          "y": 64,
+          "z": 9
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:47:24.639Z",
+        "position": {
+          "x": 18,
+          "y": 64,
+          "z": -14
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T13:54:14.940Z",
+        "position": {
+          "x": 22,
+          "y": 64,
+          "z": -27
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:04:02.640Z",
+        "position": {
+          "x": 23,
+          "y": 64,
+          "z": -4
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:08:02.891Z",
+        "position": {
+          "x": 34,
+          "y": 60,
+          "z": -26
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "drowning"
+      },
+      {
+        "at": "2026-05-28T14:11:35.610Z",
+        "position": {
+          "x": 14,
+          "y": 61,
+          "z": -2
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:16:17.740Z",
+        "position": {
+          "x": 24,
+          "y": 63,
+          "z": 4
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:24:14.941Z",
+        "position": {
+          "x": 26,
+          "y": 63,
+          "z": 3
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-05-28T14:24:46.888Z",
+        "position": {
+          "x": 46,
+          "y": 66,
+          "z": 13
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:27:53.338Z",
+        "position": {
+          "x": 24,
+          "y": 60,
+          "z": 5
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:28:21.441Z",
+        "position": {
+          "x": 21,
+          "y": 61,
+          "z": 2
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:28:39.243Z",
+        "position": {
+          "x": 20,
+          "y": 64,
+          "z": 15
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:30:54.339Z",
+        "position": {
+          "x": 25,
+          "y": 64,
+          "z": 4
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:34:26.048Z",
+        "position": {
+          "x": 21,
+          "y": 65,
+          "z": -3
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "unknown"
+      },
+      {
+        "at": "2026-05-28T14:52:20.490Z",
+        "position": {
+          "x": 21,
+          "y": 68,
+          "z": -1
+        },
+        "task": null,
+        "goal": "get an axe",
+        "likelyCause": "starvation"
+      },
+      {
+        "at": "2026-06-18T15:44:39.088Z",
+        "position": {
+          "x": 206,
+          "y": -60,
+          "z": 18
+        },
+        "task": null,
+        "goal": "compete with itzrealme: survive like a real player, keep food stable, craft tools, gear up, defend from mobs, and keep progressing without waiting for commands",
+        "likelyCause": "fall"
+      }
+    ],
+    "dispatcher": {
+      "lastAction": {
+        "action": "secure_food",
+        "reason": "low food supplies",
+        "at": "2026-06-18T14:02:00.026Z",
+        "interruptedTask": null
+      }
+    },
+    "knownMining": {
+      "lastBranchMineStart": {
+        "x": 18,
+        "y": 62,
+        "z": -1,
+        "at": "2026-05-27T13:16:28.736Z"
+      },
+      "lastStaircase": {
+        "x": 24,
+        "y": 62,
+        "z": -35,
+        "at": "2026-05-27T20:17:03.721Z"
+      },
+      "iron_oreStart": {
+        "x": 24,
+        "y": 62,
+        "z": -35,
+        "at": "2026-05-27T20:17:03.721Z"
+      }
+    },
+    "beaconPyramid": {
+      "mode": "stopped",
+      "phase": "preparing_iron_pickaxe",
+      "targetDiamondBlocks": 164,
+      "targetDiamonds": 1476,
+      "progress": {
+        "diamondItems": 0,
+        "diamondBlocks": 0,
+        "equivalentDiamonds": 0,
+        "beaconMaterials": {
+          "glass": 0,
+          "obsidian": 192,
+          "nether_star": 0,
+          "beacon": 0
+        },
+        "missingDiamonds": 1476
+      },
+      "startedAt": "2026-05-27T19:57:20.747Z",
+      "lastRunAt": "2026-06-18T14:26:25.680Z",
+      "updatedAt": "2026-06-18T14:26:25.697Z",
+      "blockedReason": null
+    },
+    "moddedThreats": {
+      "observed": {
+        "slime": {
+          "seen": 3998,
+          "maxScore": 93,
+          "reasons": [
+            "known_hostile",
+            "recent_damage"
+          ],
+          "lastSeenAt": "2026-06-18T14:04:41.733Z",
+          "level": "watch",
+          "ranged": false
+        }
+      },
+      "damageEvents": [
+        {
+          "at": 1781797365737,
+          "iso": "2026-06-18T15:42:45.737Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797366588,
+          "iso": "2026-06-18T15:42:46.588Z",
+          "lost": 0.8,
+          "nearby": []
+        },
+        {
+          "at": 1781797367086,
+          "iso": "2026-06-18T15:42:47.086Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797367786,
+          "iso": "2026-06-18T15:42:47.786Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797398735,
+          "iso": "2026-06-18T15:43:18.735Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797399335,
+          "iso": "2026-06-18T15:43:19.335Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797399686,
+          "iso": "2026-06-18T15:43:19.686Z",
+          "lost": 0.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797399835,
+          "iso": "2026-06-18T15:43:19.835Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797400336,
+          "iso": "2026-06-18T15:43:20.336Z",
+          "lost": 0.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797415585,
+          "iso": "2026-06-18T15:43:35.585Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797416085,
+          "iso": "2026-06-18T15:43:36.085Z",
+          "lost": 1.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797417086,
+          "iso": "2026-06-18T15:43:37.086Z",
+          "lost": 1.8,
+          "nearby": []
+        },
+        {
+          "at": 1781797417738,
+          "iso": "2026-06-18T15:43:37.738Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797418336,
+          "iso": "2026-06-18T15:43:38.336Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797418936,
+          "iso": "2026-06-18T15:43:38.936Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797419485,
+          "iso": "2026-06-18T15:43:39.485Z",
+          "lost": 1.8,
+          "nearby": []
+        },
+        {
+          "at": 1781797420034,
+          "iso": "2026-06-18T15:43:40.034Z",
+          "lost": 1.8,
+          "nearby": []
+        },
+        {
+          "at": 1781797420535,
+          "iso": "2026-06-18T15:43:40.535Z",
+          "lost": 1.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797421035,
+          "iso": "2026-06-18T15:43:41.035Z",
+          "lost": 1.5,
+          "nearby": []
+        },
+        {
+          "at": 1781797421885,
+          "iso": "2026-06-18T15:43:41.885Z",
+          "lost": 1.3,
+          "nearby": []
+        },
+        {
+          "at": 1781797425386,
+          "iso": "2026-06-18T15:43:45.386Z",
+          "lost": 2.1,
+          "nearby": []
+        },
+        {
+          "at": 1781797451584,
+          "iso": "2026-06-18T15:44:11.584Z",
+          "lost": 2,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 5.6,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 5.8,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal"
+              ],
+              "recommendation": "evade_or_take_cover"
+            }
+          ]
+        },
+        {
+          "at": 1781797479085,
+          "iso": "2026-06-18T15:44:39.085Z",
+          "lost": 20,
+          "nearby": []
+        },
+        {
+          "at": 1781797810788,
+          "iso": "2026-06-18T15:50:10.788Z",
+          "lost": 1.5,
+          "nearby": [
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 0.1,
+              "level": "low",
+              "score": 25,
+              "ranged": false,
+              "reasons": [],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797814488,
+          "iso": "2026-06-18T15:50:14.488Z",
+          "lost": 0.3,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 7.3,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 3.5,
+              "level": "watch",
+              "score": 43,
+              "ranged": false,
+              "reasons": [
+                "recent_damage"
+              ],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797815589,
+          "iso": "2026-06-18T15:50:15.589Z",
+          "lost": 0.4,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 0.9,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 2.3,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 2.2,
+              "level": "watch",
+              "score": 43,
+              "ranged": false,
+              "reasons": [
+                "recent_damage"
+              ],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797817787,
+          "iso": "2026-06-18T15:50:17.787Z",
+          "lost": 0.3,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 2.7,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 2.3,
+              "level": "watch",
+              "score": 43,
+              "ranged": false,
+              "reasons": [
+                "recent_damage"
+              ],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797821236,
+          "iso": "2026-06-18T15:50:21.236Z",
+          "lost": 0.6,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 3.9,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 1.2,
+              "level": "watch",
+              "score": 43,
+              "ranged": false,
+              "reasons": [
+                "recent_damage"
+              ],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797825138,
+          "iso": "2026-06-18T15:50:25.138Z",
+          "lost": 0.3,
+          "nearby": [
+            {
+              "name": "firework_rocket",
+              "type": "projectile",
+              "distance": 3.1,
+              "level": "critical",
+              "score": 100,
+              "ranged": true,
+              "reasons": [
+                "projectile_or_bullet",
+                "ranged_weapon_signal",
+                "recent_damage"
+              ],
+              "recommendation": "evade_or_take_cover"
+            },
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 2.2,
+              "level": "watch",
+              "score": 43,
+              "ranged": false,
+              "reasons": [
+                "recent_damage"
+              ],
+              "recommendation": "monitor"
+            }
+          ]
+        },
+        {
+          "at": 1781797896488,
+          "iso": "2026-06-18T15:51:36.488Z",
+          "lost": 1.5,
+          "nearby": [
+            {
+              "name": "CodexBot",
+              "type": "player",
+              "distance": 0.1,
+              "level": "low",
+              "score": 25,
+              "ranged": false,
+              "reasons": [],
+              "recommendation": "monitor"
+            }
+          ]
+        }
+      ]
+    },
+    "realPlayer": {
+      "suppressedUntil": 1781793744860
+    }
+  },
+  "lastUpdated": "2026-06-18T15:51:38.135Z",
+  "botBase": {
+    "x": 11,
+    "y": 61,
+    "z": -7
+  },
+  "conversations": [
+    {
+      "at": "2026-05-26T20:01:25.890Z",
+      "username": "jonn1",
+      "message": "hey bot"
+    },
+    {
+      "at": "2026-05-26T20:01:52.788Z",
+      "username": "jonn1",
+      "message": "bot"
+    },
+    {
+      "at": "2026-05-26T20:01:55.138Z",
+      "username": "jonn1",
+      "message": "hey bot"
+    },
+    {
+      "at": "2026-05-26T20:13:52.204Z",
+      "username": "jonn1",
+      "message": "hello bot"
+    },
+    {
+      "at": "2026-05-27T12:00:39.519Z",
+      "username": "jonn1",
+      "message": "bot get"
+    },
+    {
+      "at": "2026-05-27T12:03:05.689Z",
+      "username": "jonn1",
+      "message": "bot equip diamon_shovel"
+    },
+    {
+      "at": "2026-05-27T12:23:13.492Z",
+      "username": "jonn1",
+      "message": "bot make"
+    },
+    {
+      "at": "2026-05-28T14:22:06.316Z",
+      "username": "CodexTester",
+      "message": "\" !botStash\\ 30000"
+    }
+  ]
+}

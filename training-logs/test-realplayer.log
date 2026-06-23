@@ -1,0 +1,166 @@
+[tester +  0.3s] joined as CodexTester; scenario=realplayer
+[tester +  1.8s] chat > /gamerule keepInventory true
+[tester +  3.3s] chat > /time set day
+[tester +  4.8s] chat > /weather clear
+[tester +  6.1s] TeammateBot has made the advancement chat.square_brackets
+[tester +  6.3s] chat > /tp TeammateBot 0 5 0
+[tester +  6.3s] /tp TeammateBot 0 5 0<--[HERE]
+[tester +  8.8s] chat > !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester + 11.3s] <TeammateBot> Real-player mode: working on survival progress.
+[tester + 11.3s] <TeammateBot> Real-player mode: working on survival progress.
+[tester + 17.1s] <TeammateBot> Autoplay on.
+[tester + 17.1s] <TeammateBot> Autoplay on.
+[tester + 21.3s] <TeammateBot> Defending from slime.
+[tester + 21.3s] <TeammateBot> Defending from slime.
+[tester + 27.1s] <TeammateBot> Threat slime looks ranged/modded; taking cover.
+[tester + 27.1s] <TeammateBot> Threat slime looks ranged/modded; taking cover.
+[tester + 31.5s] <TeammateBot> Avoiding slime; it looks ranged or modded.
+[tester + 31.5s] <TeammateBot> Avoiding slime; it looks ranged or modded.
+[tester + 32.4s] TeammateBot was slain by Slime
+[tester + 32.4s] <TeammateBot> I died. Regrouping.
+[tester + 32.4s] <TeammateBot> I died. Regrouping.
+[tester + 54.7s] <TeammateBot> Threat slime looks ranged/modded; taking cover.
+[tester + 54.7s] <TeammateBot> Threat slime looks ranged/modded; taking cover.
+[tester + 68.8s] chat > !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <TeammateBot> agent running, objective combat_prepare, last ok:verified, director idle, stage none, step craft_tools, blocked I need a clear spot to place a crafting table., autoplay stopped, stage combat_ready, skill agent_step, fail
+[tester + 68.8s] <TeammateBot> agent running, objective combat_prepare, last ok:verified, director idle, stage none, step craft_tools, blocked I need a clear spot to place a crafting table., autoplay stopped, stage combat_ready, skill agent_step, fail
+[tester + 73.8s] chat > !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <TeammateBot> Rewards food 50, safety 45, stuck 100.
+[tester + 73.8s] <TeammateBot> Rewards food 50, safety 45, stuck 100.
+[tester + 78.8s] chat > !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 83.8s] chat > !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <TeammateBot> Task: idle, HP: 19.999998092651367, food: 14, armor: 0/4, tool: stone_axe 100%, protect: off, pvp: on, mobs: fighting slime, dispatcher idle, last mob_defense, ai: paused (compete with itzrealme: survive lik), loc: 194 4
+[tester + 83.8s] <TeammateBot> Task: idle, HP: 19.999998092651367, food: 14, armor: 0/4, tool: stone_axe 100%, protect: off, pvp: on, mobs: fighting slime, dispatcher idle, last mob_defense, ai: paused (compete with itzrealme: survive lik), loc: 194 4
+[tester + 87.8s] CodexTester was slain by Slime
+[tester + 88.8s] scenario complete
+
+[exit 0]
+[tester +  0.2s] joined as CodexTester; scenario=realplayer
+[tester +  1.7s] chat > /gamerule keepInventory true
+[tester +  3.2s] chat > /time set day
+[tester +  4.7s] chat > /weather clear
+[tester +  6.3s] chat > /tp TeammateBot 0 5 0
+[tester +  8.8s] chat > !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester + 22.8s] CodexTester was slain by Slime
+[tester + 29.4s] CodexTester was slain by Slime
+[tester + 36.7s] CodexTester was slain by Slime
+[tester + 43.1s] CodexTester was slain by Slime
+[tester + 48.9s] CodexTester was slain by Slime
+[tester + 56.6s] CodexTester was slain by Slime
+[tester + 64.3s] CodexTester was slain by Slime
+[tester + 68.8s] chat > !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 73.8s] chat > !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 78.8s] chat > !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 83.8s] chat > !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 87.3s] CodexTester was slain by Slime
+[tester + 88.8s] scenario complete
+
+[exit 0]
+[tester +  0.2s] joined as CodexTester; scenario=realplayer
+[tester +  1.7s] chat > /gamerule keepInventory true
+[tester +  3.2s] chat > /time set day
+[tester +  4.8s] chat > /weather clear
+[tester +  6.3s] chat > /tp TeammateBot 0 5 0
+[tester +  6.3s] Teleported TeammateBot to 0.5, 5.0, 0.5
+[tester +  6.3s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  6.3s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  8.8s] chat > !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester + 14.2s] <TeammateBot> Checking cave safely.
+[tester + 14.2s] <TeammateBot> Checking cave safely.
+[tester + 19.5s] <TeammateBot> Heading to Y 96 for coal_ore.
+[tester + 19.5s] <TeammateBot> Heading to Y 96 for coal_ore.
+[tester + 19.5s] <TeammateBot> Prospecting for coal_ore.
+[tester + 19.5s] <TeammateBot> Prospecting for coal_ore.
+[tester + 68.8s] chat > !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <TeammateBot> agent running, objective mine_coal, last ok:verified, director idle, stage none, step make_storage, autoplay running, stage agent_core, skill agent_step
+[tester + 68.8s] <TeammateBot> agent running, objective mine_coal, last ok:verified, director idle, stage none, step make_storage, autoplay running, stage agent_core, skill agent_step
+[tester + 73.8s] chat > !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <TeammateBot> Rewards food 50, safety 45, stuck 50.
+[tester + 73.8s] <TeammateBot> Rewards food 50, safety 45, stuck 50.
+[tester + 78.8s] chat > !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 83.8s] chat > !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <TeammateBot> Task: realplayer, HP: 20, food: 20, armor: 0/4, tool: stone_pickaxe 100%, protect: off, pvp: on, mobs: armed, dispatcher idle, last mob_defense, ai: paused (compete with itzrealme: survive lik), loc: 57 5 8.
+[tester + 83.8s] <TeammateBot> Task: realplayer, HP: 20, food: 20, armor: 0/4, tool: stone_pickaxe 100%, protect: off, pvp: on, mobs: armed, dispatcher idle, last mob_defense, ai: paused (compete with itzrealme: survive lik), loc: 57 5 8.
+[tester + 88.8s] scenario complete
+
+[exit 0]
+[tester +  0.2s] joined as CodexTester; scenario=realplayer
+[tester +  1.7s] chat > /gamerule keepInventory true
+[tester +  3.2s] chat > /time set day
+[tester +  4.8s] chat > /weather clear
+[tester +  6.3s] chat > /tp TeammateBot 0 5 0
+[tester +  6.3s] Teleported TeammateBot to 0.5, 5.0, 0.5
+[tester +  6.3s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  6.3s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  8.8s] chat > !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <CodexTester> !realPlayer
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Real-player mode on for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester +  8.8s] <TeammateBot> Autoplay for 3 min.
+[tester + 68.8s] chat > !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <CodexTester> !brainStatus
+[tester + 68.8s] <TeammateBot> agent running, objective gather_wood, last ok:verified, director idle, stage none, step gather_wood, autoplay running, stage agent_core, skill agent_step
+[tester + 68.8s] <TeammateBot> agent running, objective gather_wood, last ok:verified, director idle, stage none, step gather_wood, autoplay running, stage agent_core, skill agent_step
+[tester + 73.8s] chat > !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <CodexTester> !rewardStatus
+[tester + 73.8s] <TeammateBot> Rewards food 47, safety 45, stuck 50.
+[tester + 73.8s] <TeammateBot> Rewards food 47, safety 45, stuck 50.
+[tester + 78.8s] chat > !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <CodexTester> !realPlayerStatus
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 78.8s] <TeammateBot> real-player on, autostart on, minutes 3, goal compete with itzrealme: survive like a real player, keep food stable, craft tool
+[tester + 83.8s] chat > !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <CodexTester> !status
+[tester + 83.8s] <TeammateBot> Task: realplayer, HP: 20, food: 9, armor: 0/4, tool: rotten_flesh, protect: off, pvp: on, mobs: armed, dispatcher idle, last eat_food, ai: paused (compete with itzrealme: survive lik), loc: 91 4 -15.
+[tester + 83.8s] <TeammateBot> Task: realplayer, HP: 20, food: 9, armor: 0/4, tool: rotten_flesh, protect: off, pvp: on, mobs: armed, dispatcher idle, last eat_food, ai: paused (compete with itzrealme: survive lik), loc: 91 4 -15.
+[tester + 88.8s] scenario complete
+
+[exit 0]

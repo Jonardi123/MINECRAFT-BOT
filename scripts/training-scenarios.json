@@ -1,0 +1,142 @@
+{
+  "policy": "Run only on private Minecraft servers you own or have explicit permission to test.",
+  "source": "Nebula safe SoulFire-inspired training scenarios",
+  "scenarios": [
+    {
+      "id": "self_awareness_probe",
+      "agent": "SelfModelAgent",
+      "goal": "Confirm the bot can explain what it is, where it is, what it is doing, what it needs, and what risk it sees.",
+      "commands": ["!self", "!reflect", "!risk", "bot do you know you are playing Minecraft?"],
+      "success_metrics": ["mentions_bot_identity", "mentions_position_or_unknown", "mentions_health_food", "mentions_current_task", "mentions_next_best_action"],
+      "stop_conditions": ["claims_literal_consciousness", "ignores_risks", "pretends_to_have_hidden_senses"]
+    },
+    {
+      "id": "baseline_validation",
+      "agent": "SessionAgent",
+      "goal": "Confirm startup, connection, memory load, and command response are stable before training.",
+      "commands": ["npm.cmd run check", "npm.cmd start", "!status", "!memory"],
+      "success_metrics": ["preflight_passed", "joined_private_server", "status_response", "clean_disconnect"],
+      "stop_conditions": ["preflight_failed", "wrong_server", "unexpected_account_or_proxy_setting"]
+    },
+    {
+      "id": "movement_pathfinding",
+      "agent": "MovementAgent",
+      "goal": "Measure pathfinder reliability on short, medium, and obstacle-course routes.",
+      "commands": ["!come", "!follow 2", "!autoplay 10", "!autoplaystatus"],
+      "success_metrics": ["route_success_rate", "average_route_seconds", "stuck_events", "recovery_attempts"],
+      "stop_conditions": ["repeated_path_timeout", "unsafe_fall_or_lava_route", "no_progress_for_3_minutes"]
+    },
+    {
+      "id": "survival_loop",
+      "agent": "SurvivalAgent",
+      "goal": "Train food, wood, tools, shelter, and storage loops in a controlled survival world.",
+      "commands": ["!autoplay 20", "!autoplaystatus", "!inventory", "!memory"],
+      "success_metrics": ["food_stability", "wood_collected", "tools_crafted", "storage_known", "deaths"],
+      "stop_conditions": ["starvation_risk", "death_loop", "inventory_full_without_storage"]
+    },
+    {
+      "id": "marlow_bootstrap_to_stone",
+      "agent": "DirectorAgent",
+      "goal": "Train a clean fresh-world opening: claim base, gather wood, craft table/tools, collect stone, make storage, and report status.",
+      "commands": ["!rewardStatus", "!brainStatus", "!bootstrap", "!botStash", "!inventory", "!autoplaystatus"],
+      "success_metrics": ["base_claimed", "crafting_table_ready", "starter_tools_ready", "stone_tools_started", "storage_known", "no_deaths"],
+      "stop_conditions": ["no_wood_found_after_3_attempts", "cannot_place_table_or_chest", "same_bootstrap_failure_repeated"]
+    },
+    {
+      "id": "marlow_iron_kit",
+      "agent": "SurvivalAgent",
+      "goal": "Train the bot to reach the first real survival power spike: coal, iron, shield, bucket, and food before risky mining.",
+      "commands": ["!checkSupplies", "!autoplay 25", "!smartMine iron_ore 4", "!cookFood 4", "!autoplaystatus", "!inventory"],
+      "success_metrics": ["coal_or_charcoal_available", "iron_gained_or_blocker_recorded", "shield_or_bucket_crafted", "food_above_safe_threshold", "unsafe_mining_refused"],
+      "stop_conditions": ["food_below_critical", "mines_without_pickaxe", "continues_after_repeated_iron_failure"]
+    },
+    {
+      "id": "marlow_cave_safety",
+      "agent": "MiningAgent",
+      "goal": "Train cautious cave behavior: light tunnels, scan exposed ores, pause near mobs, and leave before health or food becomes unsafe.",
+      "commands": ["!risk", "!torchMine 16", "!caveExplore 24", "!findExposed iron_ore", "!autoplaystatus", "!status"],
+      "success_metrics": ["torch_or_safe_light_attempted", "hazards_reported", "mob_pause_or_retreat", "returns_or_stops_when_unsafe", "ore_opportunities_reported"],
+      "stop_conditions": ["keeps_mining_at_low_food", "ignores_hostile_mob", "lava_or_fall_risk_not_reported"]
+    },
+    {
+      "id": "mining_benchmark",
+      "agent": "MiningAgent",
+      "goal": "Benchmark safe resource gathering before deeper objectives.",
+      "commands": ["!gomine coal 8", "!gomine iron 6", "!inventory", "!autoplaystatus"],
+      "success_metrics": ["target_items_gained", "blocks_mined_per_minute", "tool_breaks", "hazard_escapes"],
+      "stop_conditions": ["no_pickaxe", "lava_or_drowning_risk", "repeated_missing_target"]
+    },
+    {
+      "id": "combat_defense_controlled",
+      "agent": "CombatAgent",
+      "goal": "Evaluate mob defense and retreat behavior in a controlled private arena.",
+      "commands": ["!autoplay 10", "!autoplaystatus", "!status"],
+      "success_metrics": ["damage_taken", "mobs_defeated", "retreat_success", "combat_deaths"],
+      "stop_conditions": ["low_health_no_food", "no_weapon_or_shield", "death_loop"]
+    },
+    {
+      "id": "crafting_benchmark",
+      "agent": "InventoryAgent",
+      "goal": "Confirm the bot can turn supplied materials into tools, bed, and useful loadout items on a command-capable temp server.",
+      "commands": ["npm.cmd run test:bot -- craftdrill 180000", "npm.cmd run training:report"],
+      "success_metrics": ["tools_crafted", "bed_crafted_or_clear_blocker", "inventory_reported", "no_crafting_loop"],
+      "stop_conditions": ["recipe_lookup_failed", "missing_table_not_recovered", "same_craft_failure_repeated"]
+    },
+    {
+      "id": "fancy_base_benchmark",
+      "agent": "BuilderAgent",
+      "goal": "Train the bot to build a useful player-like starter cabin instead of only a panic shelter.",
+      "commands": ["npm.cmd run test:bot -- fancybase 180000", "!buildBase fancy spruce", "!buildBase small oak", "!stopBuild", "bot build a fancy base", "npm.cmd run training:report"],
+      "success_metrics": ["materials_checked", "two_floor_shell_completed", "sloped_roof_detail_attempted", "balcony_built", "farm_and_path_built", "storage_saved", "lights_placed"],
+      "stop_conditions": ["starts_without_enough_blocks", "partial_base_claimed_as_success", "cannot_place_reachable_blocks", "same_build_failure_repeated"]
+    },
+    {
+      "id": "pvp_duel_benchmark",
+      "agent": "CombatAgent",
+      "goal": "Test defensive PvP retaliation against a private local tester account.",
+      "commands": ["npm.cmd run test:bot -- duel 100000", "npm.cmd run training:report"],
+      "success_metrics": ["pvp_armed", "attacker_detected", "weapon_equipped", "target_chased_or_hit", "fight_stops_cleanly"],
+      "stop_conditions": ["friendly_fire_refusal_fails", "pvp_loop_never_ends", "bot_cannot_see_tester"]
+    },
+    {
+      "id": "spawned_mob_benchmark",
+      "agent": "CombatAgent",
+      "goal": "Spawn zombie and skeleton on a local permitted server to train mob-defense recognition, gear prep, fighting, evasion, and recovery.",
+      "commands": ["npm.cmd run test:bot -- mobdrill 130000", "npm.cmd run training:report"],
+      "success_metrics": ["mob_defense_armed", "zombie_detected", "skeleton_detected_or_evaded", "damage_recorded", "autoplay_resumes_after_fight"],
+      "stop_conditions": ["ignores_spawned_hostile", "charges_skeleton_without_shield", "death_loop"]
+    },
+    {
+      "id": "itzrealme_real_player_benchmark",
+      "agent": "DirectorAgent",
+      "goal": "Make the bot compete with an ItzRealMe-style survival benchmark: proactive self-play, stable food, crafting, combat defense, and progress without waiting for commands.",
+      "commands": ["!realPlayer 10", "!realPlayerStatus", "npm.cmd run test:bot -- realplayer 130000", "npm.cmd run training:report"],
+      "success_metrics": ["starts_without_task_command", "sets_survival_goal", "keeps_defenses_armed", "advances_curriculum", "reports_next_weakness"],
+      "stop_conditions": ["idle_without_goal", "autoplay_does_not_start", "ignores_food_or_damage_risk"]
+    },
+    {
+      "id": "modded_ranged_threat_probe",
+      "agent": "ModdedThreatAgent",
+      "goal": "Confirm unknown mobs, gun-like names, bullets/projectiles, and fast damage make the bot pause mining or evade instead of charging.",
+      "commands": ["!modstatus", "!risk", "!autoplay 10", "npm.cmd run training:report"],
+      "success_metrics": ["unknown_mobs_ranked_as_threats", "ranged_threats_marked_ranged", "mining_pauses_near_threat", "evade_or_cover_before_fight", "damage_events_remembered"],
+      "stop_conditions": ["charges_ranged_mob_without_shield", "continues_mining_while_shot", "repeats_same_death_pattern"]
+    },
+    {
+      "id": "long_run_autonomy",
+      "agent": "DirectorAgent",
+      "goal": "Run bounded autonomy sessions and turn memory/reward history into the next training adjustment.",
+      "commands": ["!autoplay 45", "!autoplaystatus", "npm.cmd run training:report"],
+      "success_metrics": ["objective_completions", "reward_trend", "repeated_failures_reduced", "idle_time"],
+      "stop_conditions": ["blocked_director_step", "same_failure_repeated_3_times", "unsafe_environment"]
+    },
+    {
+      "id": "marlow_full_run",
+      "agent": "MemoryAgent",
+      "goal": "Run the high-signal Marlow drill: bootstrap, stabilize supplies, attempt iron kit, test cave safety, deposit, then review memory.",
+      "commands": ["npm.cmd run test:bot -- marlow 420000", "npm.cmd run training:report"],
+      "success_metrics": ["survives_full_drill", "progression_stage_advances", "failure_reason_recorded", "supplies_deposited_or_inventory_reported", "next_weakness_identified"],
+      "stop_conditions": ["wrong_server", "unbounded_runtime", "repeated_death_without_new_lesson"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+
+> minecraft-ai-teammate-bot@1.0.0 sparring:codex
+> node scripts/codex-sparring-bot.js TeammateBot
+
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[codex-sparring] CodexBot spawned; target=TeammateBot
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: timeout
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: max_chase
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: max_chase
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: max_chase
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: target_lost
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: unknown
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: max_chase
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: max_chase
+[codex-sparring] engaging TeammateBot
+[codex-sparring] round ended: target_lost

@@ -1,0 +1,185 @@
+Starting net.minecraft.server.Main
+[22:47:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:47:53] [ServerMain/INFO]: Loaded 1290 recipes
+[22:47:53] [ServerMain/INFO]: Loaded 1399 advancements
+[22:47:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[22:47:54] [Server thread/INFO]: Loading properties
+[22:47:54] [Server thread/INFO]: Default game type: SURVIVAL
+[22:47:54] [Server thread/INFO]: Generating keypair
+[22:47:54] [Server thread/INFO]: Starting Minecraft server on *:25566
+[22:47:54] [Server thread/INFO]: Using default channel type
+[22:47:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:47:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:47:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:47:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:47:54] [Server thread/INFO]: Preparing level "world"
+[22:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:47:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[22:47:55] [Server thread/INFO]: Time elapsed: 502 ms
+[22:47:55] [Server thread/INFO]: Done (0.718s)! For help, type "help"
+[22:47:55] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[22:47:55] [Server thread/INFO]: Gamerule doDaylightCycle is now set to: false
+[22:47:55] [Server thread/INFO]: Gamerule doWeatherCycle is now set to: false
+[22:47:55] [Server thread/INFO]: The difficulty did not change; it is already set to normal
+[22:47:55] [Server thread/INFO]: Set the time to 1000
+[22:47:55] [Server thread/INFO]: Set the weather to clear
+[22:47:55] [Server thread/INFO]: The default game mode is now Survival Mode
+[22:47:55] [Server thread/INFO]: Nothing changed. The player already is an operator
+[22:47:55] [Server thread/INFO]: Nothing changed. The player already is an operator
+[22:47:55] [Server thread/INFO]: Nothing changed. The player already is an operator
+[22:47:55] [Server thread/INFO]: Nothing changed. The player already is an operator
+[22:47:55] [Server thread/INFO]: Killed 2 entities
+[22:47:55] [Server thread/INFO]: No blocks were filled
+[22:47:55] [Server thread/INFO]: No blocks were filled
+[22:47:55] [Server thread/INFO]: No blocks were filled
+[22:47:55] [Server thread/INFO]: No blocks were filled
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No entity was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:55] [Server thread/INFO]: No player was found
+[22:47:56] [Server thread/INFO]: TeammateBot[/127.0.0.1:52191] logged in with entity id 25 at (4.611705405909657, 5.0, -23.386779963759857)
+[22:47:56] [Server thread/INFO]: TeammateBot joined the game
+[22:47:56] [Server thread/INFO]: [Not Secure] <TeammateBot> I am online.
+[22:47:57] [Server thread/INFO]: Applied effect Instant Health to TeammateBot
+[22:47:57] [Server thread/INFO]: Applied effect Saturation to TeammateBot
+[22:47:57] [Server thread/INFO]: Removed 196 item(s) from player TeammateBot
+[22:47:57] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Helmet]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Chestplate]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Leggings]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Boots]
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Boots] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Mace] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Elytra] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 96 [Firework Rocket] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Sword] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Axe] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Shield] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 24 [Totem of Undying] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 16 [Golden Apple] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 3 [Enchanted Golden Apple] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [Steak] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [Ender Pearl] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Bow] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Arrow] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [End Crystal] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Obsidian] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 3 [Water Bucket] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Cobblestone] to TeammateBot
+[22:47:58] [Server thread/INFO]: You whisper to TeammateBot: PvP rekit applied: mace, elytra, rockets, Feather Falling, totems, pearls, water, gaps, crystals.
+[22:47:58] [Server thread/INFO]: Teleported TeammateBot to 0.500000, 5.000000, 0.500000
+[22:47:58] [Server thread/INFO]: Applied effect Instant Health to TeammateBot
+[22:47:58] [Server thread/INFO]: Applied effect Saturation to TeammateBot
+[22:47:58] [Server thread/INFO]: Removed 197 item(s) from player TeammateBot
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Helmet]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Chestplate]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Leggings]
+[22:47:58] [Server thread/INFO]: Replaced a slot on TeammateBot with [Netherite Boots]
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Boots] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Mace] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Elytra] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 96 [Firework Rocket] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Sword] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Netherite Axe] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Shield] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 24 [Totem of Undying] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 16 [Golden Apple] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 3 [Enchanted Golden Apple] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [Steak] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [Ender Pearl] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 1 [Bow] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Arrow] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 32 [End Crystal] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Obsidian] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 3 [Water Bucket] to TeammateBot
+[22:47:58] [Server thread/INFO]: Gave 64 [Cobblestone] to TeammateBot
+[22:47:58] [Server thread/INFO]: You whisper to TeammateBot: PvP rekit applied: mace, elytra, rockets, Feather Falling, totems, pearls, water, gaps, crystals.
+[22:47:58] [Server thread/INFO]: Teleported TeammateBot to 0.500000, 5.000000, 0.500000
+[22:48:27] [Server thread/INFO]: jonn1[/127.0.0.1:52198] logged in with entity id 131 at (7.1112088314203445, 5.0, -21.76798311273954)
+[22:48:27] [Server thread/INFO]: jonn1 joined the game
+[22:48:29] [Server thread/INFO]: Applied effect Instant Health to jonn1
+[22:48:29] [Server thread/INFO]: Applied effect Saturation to jonn1
+[22:48:29] [Server thread/INFO]: Removed 196 item(s) from player jonn1
+[22:48:29] [Server thread/INFO]: Replaced a slot on jonn1 with [Netherite Helmet]
+[22:48:29] [Server thread/INFO]: Replaced a slot on jonn1 with [Netherite Chestplate]
+[22:48:29] [Server thread/INFO]: Replaced a slot on jonn1 with [Netherite Leggings]
+[22:48:29] [Server thread/INFO]: Replaced a slot on jonn1 with [Netherite Boots]
+[22:48:29] [Server thread/INFO]: Gave 1 [Netherite Boots] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Mace] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Elytra] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 96 [Firework Rocket] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Netherite Sword] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Netherite Axe] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Shield] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 24 [Totem of Undying] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 16 [Golden Apple] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 3 [Enchanted Golden Apple] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 32 [Steak] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 32 [Ender Pearl] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 1 [Bow] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 64 [Arrow] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 32 [End Crystal] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 64 [Obsidian] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 3 [Water Bucket] to jonn1
+[22:48:29] [Server thread/INFO]: Gave 64 [Cobblestone] to jonn1
+[22:48:29] [Server thread/INFO]: You whisper to jonn1: PvP rekit applied: mace, elytra, rockets, Feather Falling, totems, pearls, water, gaps, crystals.
+[22:48:29] [Server thread/INFO]: Teleported jonn1 to 2.500000, 5.000000, 2.500000
+[22:48:43] [Server thread/INFO]: [Not Secure] <TeammateBot> PVP: fighting jonn1.
+[22:49:27] [Server thread/INFO]: jonn1 lost connection: Disconnected
+[22:49:27] [Server thread/INFO]: jonn1 left the game
+[22:49:45] [Server thread/INFO]: [Not Secure] <TeammateBot> PVP ended: lost jonn1.
+[22:49:45] [Server thread/INFO]: [Not Secure] <TeammateBot> PVP training: 62s, dmg 34.2, melee 18/18, bow 0, crystals 0, combo x1, counter-hits 5, resets 2, press 5, micro-back 4, strafe-cancel 2, parkour 16, fall-save 5, fall-totem 6. Coach: totem cycling under pressure; lost tr
+[12:00:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46610249ms or 932204 ticks behind
+[12:00:43] [Server thread/INFO]: TeammateBot lost connection: Disconnected
+[12:00:43] [Server thread/INFO]: TeammateBot left the game

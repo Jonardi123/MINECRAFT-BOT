@@ -1,0 +1,39 @@
+{
+  "name": "minecraft-ai-teammate-bot",
+  "version": "1.0.0",
+  "description": "A friendly Mineflayer teammate bot for private Minecraft Java servers.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/preflight.js",
+    "llm:smart": "scripts\\load-smart-llm.cmd",
+    "test:bot": "node scripts/test-bot.js",
+    "temp-server:setup": "node scripts/setup-temp-server.js",
+    "pvp:server": "node scripts/start-pvp-server.js",
+    "temp-server:builder": "node scripts/start-temp-builder-session.js",
+    "test:temp-server": "node scripts/run-temp-server-tests.js",
+    "training:report": "node scripts/nebula-training-report.js",
+    "sparring:codex": "node scripts/codex-sparring-bot.js",
+    "start": "node scripts/preflight.js && node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "bot",
+    "teammate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "minecraft-data": "^3.111.0",
+    "mineflayer": "^4.37.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.2.0"
+  },
+  "optionalDependencies": {
+    "mineflayer-auto-eat": "*",
+    "mineflayer-collectblock": "*",
+    "mineflayer-tool": "*"
+  }
+}

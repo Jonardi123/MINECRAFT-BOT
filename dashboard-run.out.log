@@ -1,0 +1,58 @@
+
+> minecraft-ai-teammate-bot@1.0.0 start
+> node scripts/preflight.js && node index.js
+
+Preflight OK. The project is ready to start.
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[dashboard] http://localhost:3000/
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[bot] Disconnected.
+[bot] Reconnecting in 10000ms...
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat

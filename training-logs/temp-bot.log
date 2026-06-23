@@ -1,0 +1,309 @@
+[plugins] Loaded optional plugins: collectBlock, tool
+[plugins] Optional plugins unavailable: autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[mob-defense] target not visible
+[chat] CodexTester: !inventory
+[mob-defense] target not visible
+[chat] CodexTester: !makebed
+[command] makebed failed Error: I need 3 planks for a bed.
+    at ensureBedItem (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:138:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeBedAndSetSpawn (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:33:5)
+    at async C:\Users\jonar\Desktop\mc-ai-bot\index.js:709:9
+    at async Object.start (C:\Users\jonar\Desktop\mc-ai-bot\lib\taskManager.js:13:9)
+    at async handleCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:708:7)
+    at async runCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:220:7)
+    at async EventEmitter.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\index.js:132:5)
+[chat] CodexTester: !inventory
+[chat] CodexTester: !status
+[chat] CodexTester: !pvpon
+[chat] CodexTester: !come
+[command] come failed Error: I cannot see you.
+    at requirePlayer (C:\Users\jonar\Desktop\mc-ai-bot\index.js:1410:22)
+    at handleCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:522:7)
+    at runCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:220:13)
+    at EventEmitter.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\index.js:132:11)
+    at EventEmitter.emit (node:events:521:24)
+    at Client.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\mineflayer\lib\plugins\chat.js:131:9)
+    at Client.emit (node:events:509:28)
+    at Client.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\minecraft-protocol\src\client\play.js:79:18)
+    at Client.emit (node:events:509:28)
+    at emitPacket (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\minecraft-protocol\src\client.js:85:12)
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[chat] CodexTester: !status
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[pvp] ReferenceError: adaptive is not defined
+    at shouldHoldShieldInsteadOfAttack (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:209:3)
+    at fightEntitySmart (C:\Users\jonar\Desktop\mc-ai-bot\lib\combat.js:103:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async fightLoop (C:\Users\jonar\Desktop\mc-ai-bot\lib\pvp.js:58:5)
+[chat] CodexTester: !status
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[chat] CodexTester: !mobdefenseon
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[chat] CodexTester: !mobdefensestatus
+[mob-defense] adaptive is not defined
+[chat] CodexTester: !status
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[chat] CodexTester: !realplayer
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[chat] CodexTester: !brainstatus
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[chat] CodexTester: !rewardstatus
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[chat] CodexTester: !realplayerstatus
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[chat] CodexTester: !status
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+[mob-defense] adaptive is not defined
+[dispatcher:mob_defense] adaptive is not defined
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool
+[plugins] Optional plugins unavailable: autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !inventory
+[mob-defense resume] Digging aborted
+[chat] CodexTester: !makebed
+[command] makebed failed Error: I could not craft a white bed.
+    at ensureBedItem (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:151:11)
+    at async makeBedAndSetSpawn (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:33:5)
+    at async C:\Users\jonar\Desktop\mc-ai-bot\index.js:709:9
+    at async Object.start (C:\Users\jonar\Desktop\mc-ai-bot\lib\taskManager.js:13:9)
+    at async handleCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:708:7)
+    at async runCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:220:7)
+    at async EventEmitter.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\index.js:132:5)
+[chat] CodexTester: !inventory
+[chat] CodexTester: !status
+[bot] Kicked: {"translate":"multiplayer.disconnect.invalid_entity_attacked"}
+[bot] Disconnected.
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool
+[plugins] Optional plugins unavailable: autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !inventory
+[chat] CodexTester: !makebed
+[command] makebed failed Error: I could not craft a white bed.
+    at ensureBedItem (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async makeBedAndSetSpawn (C:\Users\jonar\Desktop\mc-ai-bot\lib\domestic.js:33:5)
+    at async C:\Users\jonar\Desktop\mc-ai-bot\index.js:709:9
+    at async Object.start (C:\Users\jonar\Desktop\mc-ai-bot\lib\taskManager.js:13:9)
+    at async handleCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:708:7)
+    at async runCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:220:7)
+    at async EventEmitter.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\index.js:132:5)
+[chat] CodexTester: !inventory
+[chat] CodexTester: !status
+[chat] CodexTester: !pvpon
+[chat] CodexTester: !come
+[command] come failed Error: I cannot see you.
+    at requirePlayer (C:\Users\jonar\Desktop\mc-ai-bot\index.js:1410:22)
+    at handleCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:522:7)
+    at runCommand (C:\Users\jonar\Desktop\mc-ai-bot\index.js:220:13)
+    at EventEmitter.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\index.js:132:11)
+    at EventEmitter.emit (node:events:521:24)
+    at Client.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\mineflayer\lib\plugins\chat.js:131:9)
+    at Client.emit (node:events:509:28)
+    at Client.<anonymous> (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\minecraft-protocol\src\client\play.js:79:18)
+    at Client.emit (node:events:509:28)
+    at emitPacket (C:\Users\jonar\Desktop\mc-ai-bot\node_modules\minecraft-protocol\src\client.js:85:12)
+[chat] CodexTester: !status
+[chat] CodexTester: !mobdefenseon
+[chat] CodexTester: !mobdefensestatus
+[chat] CodexTester: !status
+[chat] CodexTester: !realplayer
+[chat] CodexTester: !brainstatus
+[chat] CodexTester: !rewardstatus
+[chat] CodexTester: !realplayerstatus
+[chat] CodexTester: !status
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool
+[plugins] Optional plugins unavailable: autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !inventory
+[chat] CodexTester: !makebed
+[chat] CodexTester: !inventory
+[chat] CodexTester: !status
+[chat] CodexTester: !pvpon
+[chat] CodexTester: !come
+[chat] CodexTester: !status
+[chat] CodexTester: !status
+[chat] CodexTester: !mobdefenseon
+[chat] CodexTester: !mobdefensestatus
+[chat] CodexTester: !status
+[chat] CodexTester: !realplayer
+[dispatcher:eat_food] no food to eat
+[chat] CodexTester: !brainstatus
+[chat] CodexTester: !rewardstatus
+[chat] CodexTester: !realplayerstatus
+[chat] CodexTester: !status
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !fancybase
+[chat] CodexTester: !botstash
+[chat] CodexTester: !status
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !buildbase fancy spruce
+[chat] CodexTester: !botstash
+[chat] CodexTester: !status
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !buildbase fancy spruce
+[chat] CodexTester: !botstash
+[chat] CodexTester: !status
+
+[exit null]
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[dashboard] http://localhost:3001/
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[chat] CodexTester: !pvpon
+[chat] CodexTester: !come
+[chat] CodexTester: !status
+[chat] CodexTester: !status
+
+[exit null]

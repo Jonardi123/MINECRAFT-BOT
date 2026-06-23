@@ -1,0 +1,171 @@
+[tester +  0.5s] joined as CodexTester; scenario=fancybase
+[tester +  2.0s] chat > /gamerule keepInventory true
+[tester +  3.5s] chat > /time set day
+[tester +  5.1s] chat > /weather clear
+[tester +  6.6s] chat > /tp TeammateBot 0 5 0
+[tester +  6.6s] Teleported TeammateBot to 0.5, 5.0, 0.5
+[tester +  6.6s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  6.6s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  9.1s] chat > /fill -6 5 -5 6 10 5 air
+[tester + 10.6s] chat > /clear TeammateBot
+[tester + 10.6s] Removed 93 items from player TeammateBot
+[tester + 12.1s] chat > /give TeammateBot oak_planks 144
+[tester + 12.1s] Gave 144 chat.square_brackets to TeammateBot
+[tester + 13.6s] chat > /give TeammateBot oak_log 16
+[tester + 13.6s] Gave 16 chat.square_brackets to TeammateBot
+[tester + 15.1s] chat > /give TeammateBot cobblestone 24
+[tester + 15.1s] Gave 24 chat.square_brackets to TeammateBot
+[tester + 16.6s] chat > /give TeammateBot glass 16
+[tester + 16.6s] Gave 16 chat.square_brackets to TeammateBot
+[tester + 18.1s] chat > /give TeammateBot torch 16
+[tester + 18.1s] Gave 16 chat.square_brackets to TeammateBot
+[tester + 19.6s] chat > /give TeammateBot cooked_beef 8
+[tester + 19.6s] Gave 8 chat.square_brackets to TeammateBot
+[tester + 21.1s] chat > !fancyBase
+[tester + 21.1s] <CodexTester> !fancyBase
+[tester + 21.1s] <CodexTester> !fancyBase
+[tester + 21.1s] <TeammateBot> Building a fancy starter base.
+[tester + 21.1s] <TeammateBot> Building a fancy starter base.
+[tester + 49.3s] <TeammateBot> Fancy base placed 97 blocks.
+[tester + 49.3s] <TeammateBot> Fancy base placed 97 blocks.
+[tester +141.1s] chat > !botStash
+[tester +141.1s] <CodexTester> !botStash
+[tester +141.1s] <CodexTester> !botStash
+[tester +141.1s] <TeammateBot> base 17 4 -27 | stash 19 4 -26
+[tester +141.1s] <TeammateBot> base 17 4 -27 | stash 19 4 -26
+[tester +146.2s] chat > !status
+[tester +146.2s] <CodexTester> !status
+[tester +146.2s] <CodexTester> !status
+[tester +146.2s] <TeammateBot> Task: idle, HP: 20, food: 13, armor: 0/4, tool: torch, protect: off, pvp: on, mobs: armed, dispatcher idle, last eat_food, ai: paused (compete with itzrealme: survive lik), loc: 6 4 -22.
+[tester +146.2s] <TeammateBot> Task: idle, HP: 20, food: 13, armor: 0/4, tool: torch, protect: off, pvp: on, mobs: armed, dispatcher idle, last eat_food, ai: paused (compete with itzrealme: survive lik), loc: 6 4 -22.
+[tester +151.2s] scenario complete
+
+[exit 0]
+[tester +  0.5s] joined as CodexTester; scenario=fancybase
+[tester +  2.1s] chat > /gamerule keepInventory true
+[tester +  3.6s] chat > /time set day
+[tester +  5.1s] chat > /weather clear
+[tester +  6.6s] chat > /tp TeammateBot 0 5 0
+[tester +  6.6s] Teleported TeammateBot to 0.5, 5.0, 0.5
+[tester +  6.6s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  6.6s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  9.1s] chat > /fill -18 4 -18 18 4 18 grass_block
+[tester + 10.6s] chat > /fill -18 5 -18 18 15 18 air
+[tester + 12.1s] chat > /clear TeammateBot
+[tester + 12.1s] Removed 794 items from player TeammateBot
+[tester + 13.6s] chat > /give TeammateBot spruce_log 64
+[tester + 13.6s] Gave 64 chat.square_brackets to TeammateBot
+[tester + 15.1s] chat > /give TeammateBot spruce_planks 256
+[tester + 15.1s] Gave 256 chat.square_brackets to TeammateBot
+[tester + 16.6s] chat > /give TeammateBot oak_planks 160
+[tester + 16.6s] Gave 160 chat.square_brackets to TeammateBot
+[tester + 18.1s] chat > /give TeammateBot stone_bricks 128
+[tester + 18.1s] Gave 128 chat.square_brackets to TeammateBot
+[tester + 19.6s] chat > /give TeammateBot cobblestone 96
+[tester + 19.6s] Gave 96 chat.square_brackets to TeammateBot
+[tester + 21.1s] chat > /give TeammateBot glass 32
+[tester + 21.2s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 22.7s] chat > /give TeammateBot glass_pane 32
+[tester + 22.7s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 24.2s] chat > /give TeammateBot spruce_door 1
+[tester + 24.2s] Gave 1 chat.square_brackets to TeammateBot
+[tester + 25.7s] chat > /give TeammateBot chest 1
+[tester + 25.7s] Gave 1 chat.square_brackets to TeammateBot
+[tester + 27.2s] chat > /give TeammateBot crafting_table 1
+[tester + 27.2s] Gave 1 chat.square_brackets to TeammateBot
+[tester + 28.7s] chat > /give TeammateBot furnace 1
+[tester + 28.7s] Gave 1 chat.square_brackets to TeammateBot
+[tester + 30.2s] chat > /give TeammateBot torch 32
+[tester + 30.2s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 31.7s] chat > /give TeammateBot cooked_beef 8
+[tester + 31.7s] Gave 8 chat.square_brackets to TeammateBot
+[tester + 33.2s] chat > !buildBase fancy spruce
+[tester + 33.2s] <CodexTester> !buildBase fancy spruce
+[tester + 33.2s] <CodexTester> !buildBase fancy spruce
+[tester + 33.3s] <TeammateBot> Building fancy starter base with spruce + stone bricks.
+[tester + 33.3s] <TeammateBot> Building fancy starter base with spruce + stone bricks.
+[tester +197.3s] <TeammateBot> fancy starter base placed 313 blocks.
+[tester +197.3s] <TeammateBot> fancy starter base placed 313 blocks.
+[tester +213.2s] chat > !botStash
+[tester +213.2s] <CodexTester> !botStash
+[tester +213.2s] <CodexTester> !botStash
+[tester +213.2s] <TeammateBot> base 4 5 -8 | stash 7 5 -7
+[tester +213.2s] <TeammateBot> base 4 5 -8 | stash 7 5 -7
+[tester +218.2s] chat > !status
+[tester +218.2s] <CodexTester> !status
+[tester +218.2s] <CodexTester> !status
+[tester +218.2s] <TeammateBot> Task: idle, HP: 20, food: 20, armor: 0/4, tool: stone_bricks, protect: off, pvp: on, mobs: armed, dispatcher idle, ai: paused (compete with itzrealme: survive lik), loc: 5 6 -8.
+[tester +218.2s] <TeammateBot> Task: idle, HP: 20, food: 20, armor: 0/4, tool: stone_bricks, protect: off, pvp: on, mobs: armed, dispatcher idle, ai: paused (compete with itzrealme: survive lik), loc: 5 6 -8.
+[tester +223.2s] scenario complete
+
+[exit 0]
+[tester +  0.7s] joined as CodexTester; scenario=fancybase
+[tester +  2.2s] chat > /gamerule keepInventory true
+[tester +  3.7s] chat > /time set day
+[tester +  5.2s] chat > /weather clear
+[tester +  6.7s] chat > /tp TeammateBot 0 5 0
+[tester +  6.7s] Teleported TeammateBot to 0.5, 5.0, 0.5
+[tester +  6.7s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  6.7s] <TeammateBot> I am here. Give me a command or ask for help.
+[tester +  9.2s] chat > /fill -30 4 -30 30 4 30 grass_block
+[tester + 10.8s] chat > /fill -30 5 -30 30 16 30 air
+[tester + 12.3s] chat > /clear TeammateBot
+[tester + 12.3s] Removed 820 items from player TeammateBot
+[tester + 13.8s] chat > /give TeammateBot spruce_log 80
+[tester + 13.8s] Gave 80 chat.square_brackets to TeammateBot
+[tester + 15.3s] chat > /give TeammateBot spruce_planks 420
+[tester + 15.3s] Gave 420 chat.square_brackets to TeammateBot
+[tester + 16.8s] chat > /give TeammateBot spruce_stairs 32
+[tester + 16.8s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 18.3s] chat > /give TeammateBot spruce_slab 64
+[tester + 18.3s] Gave 64 chat.square_brackets to TeammateBot
+[tester + 19.8s] chat > /give TeammateBot spruce_fence 64
+[tester + 19.8s] Gave 64 chat.square_brackets to TeammateBot
+[tester + 21.3s] chat > /give TeammateBot spruce_trapdoor 24
+[tester + 21.3s] Gave 24 chat.square_brackets to TeammateBot
+[tester + 22.8s] chat > /give TeammateBot stone_bricks 128
+[tester + 22.8s] Gave 128 chat.square_brackets to TeammateBot
+[tester + 24.4s] chat > /give TeammateBot cobblestone 96
+[tester + 24.4s] Gave 96 chat.square_brackets to TeammateBot
+[tester + 25.9s] chat > /give TeammateBot dirt 32
+[tester + 25.9s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 27.4s] chat > /give TeammateBot blue_stained_glass 4
+[tester + 27.4s] Gave 4 chat.square_brackets to TeammateBot
+[tester + 28.9s] chat > /give TeammateBot glass 32
+[tester + 28.9s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 30.4s] chat > /give TeammateBot glass_pane 32
+[tester + 30.4s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 31.9s] chat > /give TeammateBot spruce_door 2
+[tester + 31.9s] Gave 2 chat.square_brackets to TeammateBot
+[tester + 33.4s] chat > /give TeammateBot chest 2
+[tester + 33.4s] Gave 2 chat.square_brackets to TeammateBot
+[tester + 34.9s] chat > /give TeammateBot crafting_table 1
+[tester + 34.9s] Gave 1 chat.square_brackets to TeammateBot
+[tester + 36.4s] chat > /give TeammateBot furnace 2
+[tester + 36.4s] Gave 2 chat.square_brackets to TeammateBot
+[tester + 37.9s] chat > /give TeammateBot lantern 8
+[tester + 37.9s] Gave 8 chat.square_brackets to TeammateBot
+[tester + 39.4s] chat > /give TeammateBot torch 32
+[tester + 39.4s] Gave 32 chat.square_brackets to TeammateBot
+[tester + 40.9s] chat > /give TeammateBot cooked_beef 8
+[tester + 40.9s] Gave 8 chat.square_brackets to TeammateBot
+[tester + 42.4s] chat > !buildBase fancy spruce
+[tester + 42.4s] <CodexTester> !buildBase fancy spruce
+[tester + 42.4s] <CodexTester> !buildBase fancy spruce
+[tester + 42.8s] <TeammateBot> Building fancy starter base with spruce + stone bricks.
+[tester + 42.8s] <TeammateBot> Building fancy starter base with spruce + stone bricks.
+[tester +400.2s] <TeammateBot> fancy starter base placed 331 blocks.
+[tester +400.2s] <TeammateBot> fancy starter base placed 331 blocks.
+[tester +462.5s] chat > !botStash
+[tester +462.5s] <CodexTester> !botStash
+[tester +462.5s] <CodexTester> !botStash
+[tester +462.5s] <TeammateBot> base -7 5 -16 | stash -3 5 -14
+[tester +462.5s] <TeammateBot> base -7 5 -16 | stash -3 5 -14
+[tester +467.5s] chat > !status
+[tester +467.5s] <CodexTester> !status
+[tester +467.5s] <CodexTester> !status
+[tester +467.5s] <TeammateBot> Task: idle, HP: 20, food: 20, armor: 0/4, tool: spruce_planks, protect: off, pvp: on, mobs: armed, dispatcher idle, ai: paused (compete with itzrealme: survive lik), loc: -4 5 -9.
+[tester +467.5s] <TeammateBot> Task: idle, HP: 20, food: 20, armor: 0/4, tool: spruce_planks, protect: off, pvp: on, mobs: armed, dispatcher idle, ai: paused (compete with itzrealme: survive lik), loc: -4 5 -9.
+[tester +472.5s] scenario complete
+
+[exit 0]

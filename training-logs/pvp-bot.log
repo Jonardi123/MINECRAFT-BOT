@@ -1,0 +1,6 @@
+[plugins] Loaded optional plugins: collectBlock, tool, autoEat
+[dashboard] http://localhost:3000/
+[pvp] Retaliation armed.
+[bot] Spawned as TeammateBot
+[bot] Error: client timed out after 30000 milliseconds
+[bot] Disconnected.
