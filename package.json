@@ -10,6 +10,7 @@
     "check": "node scripts/preflight.js",
     "llm:smart": "scripts\\load-smart-llm.cmd",
     "test:bot": "node scripts/test-bot.js",
+    "test:unit": "node --test \"lib/*.test.js\"",
     "temp-server:setup": "node scripts/setup-temp-server.js",
     "pvp:server": "node scripts/start-pvp-server.js",
     "temp-server:builder": "node scripts/start-temp-builder-session.js",
