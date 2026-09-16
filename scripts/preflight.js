@@ -7,7 +7,6 @@ const requiredFiles = [
   'package.json',
   'index.js',
   'config.json',
-  'memory.json',
   'README.md',
   'aiActions.js',
   'aiController.js',
