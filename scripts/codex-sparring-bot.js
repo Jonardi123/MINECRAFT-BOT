@@ -1,11 +1,11 @@
 const mineflayer = require('mineflayer')
 const { pathfinder } = require('mineflayer-pathfinder')
 
-const { loadConfig } = require('../lib/configLoader')
-const { setupMovement, sleep } = require('../lib/navigation')
-const { loadOptionalPlugins } = require('../lib/pluginLoader')
-const { fightEntitySmart, equipBestWeapon, equipBestShield, equipBestTotem } = require('../lib/combat')
-const { equipBestArmorFromInventory } = require('../lib/equipment')
+const { loadConfig } = require('../configLoader')
+const { setupMovement, sleep } = require('../navigation')
+const { loadOptionalPlugins } = require('../pluginLoader')
+const { fightEntitySmart, equipBestWeapon, equipBestShield, equipBestTotem } = require('../combat')
+const { equipBestArmorFromInventory } = require('../equipment')
 
 const config = loadConfig()
 const username = process.env.CODEX_BOT_USERNAME || 'CodexBot'

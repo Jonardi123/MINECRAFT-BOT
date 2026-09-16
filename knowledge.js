@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge')
+const KNOWLEDGE_DIR = path.join(__dirname, 'knowledge')
 const GUIDE_FILES = {
   survival: 'survival.json',
   mining: 'mining.json',
