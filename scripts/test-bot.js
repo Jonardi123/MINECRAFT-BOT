@@ -1,6 +1,6 @@
 const mineflayer = require('mineflayer')
 const { pathfinder, goals, Movements } = require('mineflayer-pathfinder')
-const { loadConfig } = require('../lib/configLoader')
+const { loadConfig } = require('../configLoader')
 const config = loadConfig()
 
 const scenarioName = (process.argv[2] || 'wood').toLowerCase()

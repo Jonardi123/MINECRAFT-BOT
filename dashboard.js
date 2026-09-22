@@ -151,7 +151,7 @@ function createDashboardServer (initialContext) {
   }
 
   function serveStatic (pathname, res) {
-    const publicDir = path.join(__dirname, '..', 'dashboard')
+    const publicDir = path.join(__dirname, 'dashboard')
     const route = pathname === '/' ? '/index.html' : pathname
     const safePath = path.normalize(route).replace(/^(\.\.[/\\])+/, '')
     const filePath = path.join(publicDir, safePath)

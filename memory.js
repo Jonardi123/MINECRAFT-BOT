@@ -3,7 +3,7 @@ const path = require('path')
 
 const memoryPath = process.env.MC_AI_BOT_MEMORY
   ? path.resolve(process.env.MC_AI_BOT_MEMORY)
-  : path.join(__dirname, '..', 'memory.json')
+  : path.join(__dirname, 'memory.json')
 
 function loadMemory (config) {
   const memory = safeRead()
