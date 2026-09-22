@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const KNOWLEDGE_DIR = path.join(__dirname, '..', 'knowledge')
+const KNOWLEDGE_DIR = path.join(__dirname, 'knowledge')
 const GUIDE_FILES = {
   survival: 'survival.json',
   mining: 'mining.json',
@@ -80,8 +80,10 @@ function compactRules (guide) {
 function loadGuide (id) {
   const file = GUIDE_FILES[id]
   if (!file) return null
+  const fullPath = path.join(KNOWLEDGE_DIR, file)
+  if (!fs.existsSync(fullPath)) return null
   try {
-    return JSON.parse(fs.readFileSync(path.join(KNOWLEDGE_DIR, file), 'utf8'))
+    return JSON.parse(fs.readFileSync(fullPath, 'utf8'))
   } catch (err) {
     console.error(`[knowledge] Failed to load ${id}: ${err.message}`)
     return null
