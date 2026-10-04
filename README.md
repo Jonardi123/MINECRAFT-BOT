@@ -20,6 +20,8 @@ npm install
 npm run check
 ```
 
+Run `npm test` for offline task and cancellation regressions; these tests do not join a Minecraft server.
+
 If your files are on the Desktop, use:
 
 ```cmd
